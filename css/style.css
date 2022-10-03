@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(160, 18, 18);
+}
+.contenter{
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 0px;
+}
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+.header-center ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.header-center li{
+    margin: 10px;
+}
+.header-left img{
+    width:100px;
+}
+.header-left img{
+    width: 100px;
+}
+.header-right button{
+    color: white;
+    margin-top: 10px;
+    border: none;
+    padding:10px 50px;
+    background-color: rgb(230, 216, 24);
+    border-radius: 50px;
+}
+.main{
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+} 
+.main-left{
+    color: #e6e3e3;
+}
+.main-left button ,.footer-about button{
+    color: white;
+    background-color: rgb(194, 183, 35);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+.main-left .material,.footer-about .material{
+    padding:22px 30px 10px;
+    background-color: rgb(231, 40, 40);
+    border-radius: 3px;
+}
+.main-right img {
+    width:400px;
+}
+.aside-top{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.item1{
+    background-color: rgb(150, 28, 28);
+    display: flex;
+    justify-content: center;
+    color: rgb(196, 188, 188);
+    margin: 5px 250px;
+
+}
+.item1 .material-icons{
+    margin-top: 20px;
+    padding: 0px 20px ;   
+} 
+.item1 button{
+    background-color:rgb(136, 41, 41);
+    border: none;
+    color: white;
+    margin-left: 95px;
+}
+.item1:hover{
+    background-color: rgb(177, 177, 177);
+    color: rgb(160, 18, 18);
+}
+.item1 button:hover{
+    background-color: rgb(255, 217, 0);
+}
+.top1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+.photo{
+    display: flex;
+    flex: 2;
+    margin-top: 20px;
+    gap: 15px;
+    margin-left:90px;
+    margin-right:90px; 
+}
+.photo1{
+    background-image: url(../photo/pg.jpg);
+    background-size: cover;
+    
+}
+.photo2,.photo1{
+    flex: 0.8;
+    border: 10px solid rgb(202, 123, 123);
+    border-radius: 5px;
+    padding: 60px;
+}
+.photo2{
+    background-image: url(../photo/pg2.jpg);
+    background-size: cover;
+
+}
+.photo1 h4 ,.photo2 h4 ,.footer-about h1{
+    color: white;
+}
+.aside-bottom{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+.box-4{
+    display: flex;
+    flex: 4;
+    gap: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: rgb(206, 16, 16);
+    flex: 0.5;
+    padding: 10px;
+    border-radius: 20px;
+}
+.box1 img , .box2 img, .box3 img , .box4 img{
+    width: 100px;
+}
+.box .material-icons{
+    color: yellow;
+}
+.box h4 , p{
+    color: rgb(224, 217, 203);
+}
+.footer{
+    display: flex;
+    flex: 2;
+    margin: 80px;
+}
+.footer-profile img{
+    width: 400px;
+}
+.footer-profile,.footer-about{
+    flex: 0.6;
+}
+.take{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.take-out{
+    background-color: white;
+    padding: 0px 100px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.take-out h4{
+    color: rgb(202, 12, 12);
+   
+}
+.take-out span{
+    color: orange;
+}
+.search{
+    margin-top: -60px;
+}
+.search-icon input {
+    border:  none;
+
+}
+.search-icon{
+    display: flex;
+}
+.search-icon .material-icons{
+    background-color: orange;
+    padding: 10px 10px ;
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+    .main,.footer , .photo{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-right img, .footer-profile img{
+        margin-top: 40px;
+        width: 350px;
+    }
+    .item1 p{
+        display: none;
+    }
+    .item1:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(192, 29, 29);
+    }
+    .search{
+        margin-top: 10px;
+    }
+
+}
+
+
